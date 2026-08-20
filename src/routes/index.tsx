@@ -8,13 +8,13 @@ import { UNIVERSITY_EMAIL_DOMAIN } from "@/lib/shop";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Tuc Shop — Your Campus Grocery Store" },
+      { title: "tucin — Your Campus Grocery Store" },
       {
         name: "description",
         content:
           "Order snacks, beverages, stationery and toiletries from the campus store with live stock and in-store pickup.",
       },
-      { property: "og:title", content: "Tuc Shop — Your Campus Grocery Store" },
+      { property: "og:title", content: "tucin — Your Campus Grocery Store" },
       {
         property: "og:description",
         content: "Live inventory, online ordering and quick pickup for university students.",
