@@ -14,12 +14,12 @@ import { UNIVERSITY_EMAIL_DOMAIN, isUniversityEmail } from "@/lib/shop";
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "Student Sign In — tucin" },
+      { title: "Student Sign In — Tuckin" },
       {
         name: "description",
         content: `Sign in with your @${UNIVERSITY_EMAIL_DOMAIN} email to shop campus snacks, drinks and stationery.`,
       },
-      { property: "og:title", content: "Student Sign In — tucin" },
+      { property: "og:title", content: "Student Sign In — Tuckin" },
       {
         property: "og:description",
         content: "Campus store access for students with a university email address.",
@@ -88,7 +88,7 @@ function AuthPage() {
         <h1 className="text-2xl font-semibold">Student access</h1>
         <p className="mt-1 text-sm text-muted-foreground">
           Only <span className="font-medium text-foreground">@{UNIVERSITY_EMAIL_DOMAIN}</span>{" "}
-          addresses can shop at tucin.
+          addresses can shop at Tuckin.
         </p>
 
         <Tabs defaultValue="signin" className="mt-6">

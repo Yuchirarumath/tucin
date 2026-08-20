@@ -13,12 +13,12 @@ import { supabase } from "@/integrations/supabase/client";
 export const Route = createFileRoute("/staff-login")({
   head: () => ({
     meta: [
-      { title: "Employee Portal — tucin" },
+      { title: "Employee Portal — Tuckin" },
       {
         name: "description",
-        content: "Secure staff login for tucin inventory, orders and student requests.",
+        content: "Secure staff login for Tuckin inventory, orders and student requests.",
       },
-      { property: "og:title", content: "Employee Portal — tucin" },
+      { property: "og:title", content: "Employee Portal — Tuckin" },
       {
         property: "og:description",
         content: "Store employees sign in here to manage inventory and pickup orders.",
