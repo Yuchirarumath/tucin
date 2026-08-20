@@ -35,12 +35,12 @@ import { CATEGORIES, formatCurrency, ORDER_STATUS_LABELS, type Product } from "@
 export const Route = createFileRoute("/_authenticated/admin")({
   head: () => ({
     meta: [
-      { title: "Staff Dashboard — Tuc Shop" },
+      { title: "Staff Dashboard — tucin" },
       {
         name: "description",
-        content: "Manage Tuc Shop inventory, pickup orders and student product requests.",
+        content: "Manage tucin inventory, pickup orders and student product requests.",
       },
-      { property: "og:title", content: "Staff Dashboard — Tuc Shop" },
+      { property: "og:title", content: "Staff Dashboard — tucin" },
       {
         property: "og:description",
         content: "Inventory, order fulfilment and request management for store employees.",

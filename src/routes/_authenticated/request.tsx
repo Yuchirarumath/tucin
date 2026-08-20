@@ -16,15 +16,15 @@ import { supabase } from "@/integrations/supabase/client";
 export const Route = createFileRoute("/_authenticated/request")({
   head: () => ({
     meta: [
-      { title: "Request an Item — Tuc Shop" },
+      { title: "Request an Item — tucin" },
       {
         name: "description",
         content: "Tell the campus store which product to stock next and get notified when it lands.",
       },
-      { property: "og:title", content: "Request an Item — Tuc Shop" },
+      { property: "og:title", content: "Request an Item — tucin" },
       {
         property: "og:description",
-        content: "Suggest products for Tuc Shop to carry and track your request status.",
+        content: "Suggest products for tucin to carry and track your request status.",
       },
     ],
   }),

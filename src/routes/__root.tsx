@@ -81,13 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Tuc Shop — Campus Grocery Store" },
+      { title: "tucin — Campus Grocery Store" },
       {
         name: "description",
         content: "Order snacks, drinks and stationery from your university store with live stock.",
       },
-      { name: "author", content: "Tuc Shop" },
-      { property: "og:title", content: "Tuc Shop — Campus Grocery Store" },
+      { name: "author", content: "tucin" },
+      { property: "og:title", content: "tucin — Campus Grocery Store" },
       {
         property: "og:description",
         content: "Live campus store inventory, online ordering and in-store pickup.",
@@ -143,7 +143,7 @@ function RootComponent() {
               <Outlet />
             </main>
             <footer className="border-t border-border py-8 text-center text-xs text-muted-foreground">
-              Tuc Shop · University campus store · Order online, pick up in store
+              tucin · University campus store · Order online, pick up in store
             </footer>
           </div>
           <Toaster richColors position="top-center" />

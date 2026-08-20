@@ -65,7 +65,7 @@ export function Navbar() {
           <span className="flex size-9 items-center justify-center rounded-xl bg-primary text-primary-foreground">
             <ShoppingBag className="size-5" />
           </span>
-          <span className="font-display text-lg font-semibold tracking-tight">Tuc Shop</span>
+          <span className="font-display text-lg font-semibold tracking-tight">tucin</span>
         </Link>
 
         <nav className="ml-6 hidden items-center gap-1 md:flex">{nav}</nav>

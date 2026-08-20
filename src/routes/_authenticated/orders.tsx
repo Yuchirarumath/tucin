@@ -10,12 +10,12 @@ import { formatCurrency, ORDER_STATUS_LABELS } from "@/lib/shop";
 export const Route = createFileRoute("/_authenticated/orders")({
   head: () => ({
     meta: [
-      { title: "My Orders — Tuc Shop" },
+      { title: "My Orders — tucin" },
       {
         name: "description",
-        content: "Track your Tuc Shop pickup orders from paid to ready for collection.",
+        content: "Track your tucin pickup orders from paid to ready for collection.",
       },
-      { property: "og:title", content: "My Orders — Tuc Shop" },
+      { property: "og:title", content: "My Orders — tucin" },
       {
         property: "og:description",
         content: "See order status and pickup readiness for your campus store purchases.",

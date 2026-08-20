@@ -5,13 +5,13 @@ import { Shop } from "@/components/Shop";
 export const Route = createFileRoute("/shop")({
   head: () => ({
     meta: [
-      { title: "Shop Snacks, Drinks & Stationery — Tuc Shop" },
+      { title: "Shop Snacks, Drinks & Stationery — tucin" },
       {
         name: "description",
         content:
           "Browse live campus store inventory by category. Real-time stock counts, order online and pick up in store.",
       },
-      { property: "og:title", content: "Shop Snacks, Drinks & Stationery — Tuc Shop" },
+      { property: "og:title", content: "Shop Snacks, Drinks & Stationery — tucin" },
       {
         property: "og:description",
         content: "Live inventory from your university grocery store, updated in real time.",
